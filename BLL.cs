@@ -3,9 +3,9 @@ class BLL
 {
     private IDAL _dal { get; set; }
 
-    public BLL()
+    public BLL(IDAL dal)
     {
-        _dal = Factory.GetDal();
+        _dal = dal;
     }
 
     public List<Product> GetProducts()
