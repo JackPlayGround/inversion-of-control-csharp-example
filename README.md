@@ -1,6 +1,6 @@
 # C\# Inversion of Control
 
-An IoC practice. every commit gives the same output as the following:
+An IoC practice. Every commit gives the same output as the following:
 
 ```
 > dotnet run
