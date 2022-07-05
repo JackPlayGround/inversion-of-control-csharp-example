@@ -2,7 +2,7 @@ using System;
 
 class Factory
 {
-    public static DAL GetDal()
+    public static IDAL GetDal()
     {
         return new DAL();
     }

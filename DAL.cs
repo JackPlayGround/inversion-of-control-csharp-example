@@ -1,5 +1,5 @@
 using System;
-class DAL
+class DAL : IDAL
 {
     public List<Product> GetProducts()
     {

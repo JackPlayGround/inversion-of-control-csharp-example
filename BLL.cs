@@ -1,7 +1,7 @@
 using System;
 class BLL
 {
-    private DAL _dal { get; set; }
+    private IDAL _dal { get; set; }
 
     public BLL()
     {
