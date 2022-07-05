@@ -5,7 +5,7 @@ class BLL
 
     public BLL()
     {
-        _dal = new DAL();
+        _dal = Factory.GetDal();
     }
 
     public List<Product> GetProducts()
