@@ -10,8 +10,8 @@ A IoC practice. every commit gives the same output as the following:
 4. Pencil 4 - 400 - 200
 ```
 
-- **commit 1:** dirty, tightly coupled code
-- **commit 2:** Implement IoC using Factory Pattern
-- **commit 3:** Implement Dependency Inversion by creating abstraction
-- **commit 4:** Implement Dependency Injection
-- **commit 5:** Implement Dependency Injection using DI container
+- **Commit 1:** Dirty, tightly coupled code
+- **Commit 2:** Implement IoC using Factory Pattern
+- **Commit 3:** Implement Dependency Inversion by creating abstraction
+- **Commit 4:** Implement Dependency Injection
+- **Commit 5:** Implement Dependency Injection using DI container
