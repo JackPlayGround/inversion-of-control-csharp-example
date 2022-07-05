@@ -1,5 +1,10 @@
-﻿BLL bll = new BLL(new DAL());
+﻿using Microsoft.Extensions.DependencyInjection;
 
-bll.GetProducts().ForEach(x => {
+var serviceCollection = new ServiceCollection();
+serviceCollection.AddTransient<BLL>();
+serviceCollection.AddTransient<IDAL, DAL>();
+
+var serviceProvider = serviceCollection.BuildServiceProvider();
+serviceProvider.GetRequiredService<BLL>().GetProducts().ForEach(x => {
     Console.WriteLine($"{x.Id}. {x.Name} - {x.Price} - {x.Stock}");
 });
